@@ -1,0 +1,18 @@
+@echo off
+:: 设置 Go 环境（如果需要）
+:: set GOPATH=C:\path\to\your\go
+
+:: 进入项目目录
+cd /d "E:\桌面\完整代码\智能文档\backend"
+
+:: 获取依赖（如果需要）
+go mod tidy
+
+:: 编译并运行 Go 项目
+go run main.go
+
+:: 如果你希望先编译生成可执行文件，然后再运行，可以使用：
+:: go build -o backend.exe
+:: backend.exe
+
+pause

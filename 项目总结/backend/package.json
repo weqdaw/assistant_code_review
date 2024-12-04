@@ -1,0 +1,21 @@
+{
+  "name": "java-project-analyzer-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0",
+    "multer": "^1.4.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "debug": "DEBUG=app:* nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
